@@ -1,0 +1,157 @@
+.sidebar{
+        
+        background-color: rgb(255, 253, 253);
+        width:250px;
+        border-radius: 10px;
+        border-color:gray;
+}
+
+.sidebar_right{
+                margin-left: 150px;
+                margin-top: -40px;
+                display: flex;
+}
+.sidebar_right svg{
+                   font-size: 20px;
+                   margin-left: -40px;
+                   
+}
+.sidebar_search{
+                display: flex;
+                margin-top: 20px;
+}
+.sidebar_search input{
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border:none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-style: italic;
+   color:black;
+   }
+   .sidebar_chats{
+                  display: flex;
+                  background-color: #fff;
+                  flex-direction: column;
+              
+                  
+   }
+   .sidebar_chat{
+                 display: flex;
+                 align-items: center;
+                 border-bottom: 1px solid gray;
+                 list-style: none;
+                 text-decoration: none;
+                }
+   .data_chat{
+              margin:10px 20px;  
+            
+  }
+  .data_chat h2{
+                font-style: italic;
+                
+            }
+  .data_chat p{
+              margin-left: -3px;
+              font-weight: bold;
+              color:rgb(133, 107, 107);
+              margin-top: -20px;
+            } 
+  
+  .sidebar_chat:hover{
+                      cursor: pointer;
+                      background-color: lightgray;
+  }
+  .sidebar_chat>h2{
+                   font-size: 28px;
+                   margin-left: 40px;
+                   cursor:pointer;
+                   list-style: none;
+                   text-decoration: none;
+  }
+  .sidebar_chat .Avatar{
+ color:red;
+  }
+  
+  .chat_info{
+             float:left;
+            }
+ .chat_info h2{
+    margin-top: -30px;
+    margin-left: 50px;
+    font-style: italic;
+    font-weight: bold;
+  
+ }
+ .chat_info p{
+    margin-top: -26px;
+    margin-left: 50px;
+    color:gray;
+    }
+    .chat_header_right  svg{
+                       margin-right: -100px;
+                       margin-top: -50px;
+                       
+    }
+    .chat_body{
+               background-color: black;
+               display: flex;
+               width:1200px;
+               height: 497px;
+               background-image: url('https://static.whatsapp.net/rsrc.php/v3/yO/r/FsWUqRoOsPu.png');
+               background-repeat: no-repeat;
+               padding:4px 2px;
+               flex-direction: column;
+               
+               
+     }
+      .chat_body p{
+                   font-weight: bold;
+                   font-style: italic;
+      }
+     .chat_message span{
+                              position: relative;
+                              background-color: blanchedalmond;
+                              border-radius: 5px;
+                              padding:5px;
+                              width: fit-content;
+                              font-size: 14px;
+                              margin-bottom: 30px;
+                              color:gray;
+                              font-weight: bold;
+                              font-style: italic;
+                              margin-left: 2px;
+                              
+                           }
+   .chat_receiver{
+                  background-color: #baeca3 !important;
+                  margin-left: 900px;
+               
+   }
+   .chat_footer{
+                color:gray;
+                padding:4px 6px;
+   }
+   .chat_footer  form{
+                     float: right;
+   }
+   .chat_footer input[type=text] {
+    width: 80%;
+    margin-right: 960px;  
+   border-radius: 2
+   7px solid;
+   height: 30px;
+   border:none;
+   border-bottom: 2px solid gray;
+   outline:none;
+   }
+  .color1{
+          list-style: none;
+          text-decoration: none;
+          list-style: none;
+          color:black;
+          font-weight: bold;
+          font-style: normal;
+  }
